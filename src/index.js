@@ -6,11 +6,12 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import App from './components/app';
 import NoMatch from './components/NoMatch';
-import PostsIndex from './components/PostsIndex';
+import PostsIndex from './containers/PostsIndex';
+import promise from 'redux-promise';
 
 import reducers from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>

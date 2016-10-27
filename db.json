@@ -1,0 +1,48 @@
+{
+  "posts" : [
+      {
+          "id": 1,
+          "title": "whos that writer",
+          "desc": "Ormai l'inverno del nostro scontento s'è fatto estate sfolgorante ai raggi di questo sole di York."
+      },
+      {
+          "id": 2,
+          "title": "Dostoeski",
+          "desc": "La bellezza salverà il mondo"
+      }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 6",
+      "price": 5000
+    },
+    {
+      "id": 2,
+      "name": "Ghost subscription",
+      "price": 5
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Anders Bornholm"
+    },
+    {
+      "id": 2,
+      "name": "The Metal Coder"
+    },
+    {
+      "id": 9,
+      "name": "Giuseppe Garibaldi"
+    },
+    {
+      "id": 10,
+      "name": "Cippa Lippa"
+    },
+    {
+      "id": 11,
+      "name": "ggggggggbkjbjjjkbjbbbbbb "
+    }
+  ]
+}
