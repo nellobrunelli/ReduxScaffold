@@ -10,7 +10,7 @@ class PostsIndex extends React.Component {
         return this.props.posts ? this.props.posts.all.map(post => {
             return (
                 <div key={post.id}>
-                    <h4>{`post id ${post.id}`}</h4>
+                    <h4>{`post id ${post.id}  - ${post.title}`}</h4>
                     {post.desc}
                 </div>
             );

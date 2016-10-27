@@ -7,8 +7,13 @@
       },
       {
           "id": 2,
-          "title": "Dostoeski",
+          "title": "Dostoeskij",
           "desc": "La bellezza salverà il mondo"
+      },
+      {
+          "id": 3,
+          "title": "Victor Hugo",
+          "desc": "blah blah e bla bla"
       }
   ]
 }
